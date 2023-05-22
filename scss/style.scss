@@ -25,10 +25,14 @@ body {
 
 .navbar {
     height: 86px;
-    display: flex;
     border-bottom: 1px solid #D6D6D6;
     position: relative;
     top: 1px;
+
+    &__wrap {
+        display: flex;
+        height: 86px;
+    }
 
     &__logo {
         padding: 30px 0px 0px 274px;
@@ -153,7 +157,6 @@ body {
 
         font-family: Lato-Regular;
         font-size: 20px;
-        text-align: center;
         color: #FFFFFF;
         &:hover {
             background-color: #087355;
@@ -164,6 +167,7 @@ body {
 // ------------------------------ 
 
 .work {
+    height: 1606px;
 
     &__wrap {
         width: 1413px;
@@ -229,7 +233,8 @@ body {
         }
 
         &_position-03 {
-
+            padding-top: 130px;
+            margin-left: 74px;
         }
     }
 
@@ -266,11 +271,17 @@ body {
         &_position-02 {
             width: 314px;
             height: 36px;
+            position: relative;
+            top: -53px;
+            left: 79px;
         }
 
         &_position-03 {
             width: 102px;
             height: 36px;
+            position: relative;
+            top: -53px;
+            left: 124px;
         }
     }
 
@@ -281,26 +292,32 @@ body {
         color: #424242;
 
         &_position-01 {
-            margin-top: 10px;
+            margin-top: 10.5px;
         }
 
         &_position-02 {
+            margin-top: 10.5px;
         }
 
         &_position-03 {
+            margin-top: 1.5px;
+            margin-left: -1px;
         }
     }
 
     &__img {
         width: 390px;
         &_position-01 {
-            margin-top: 61px;
+            margin-top: 60.5px;
         }
 
         &_position-02 {
+            margin-top: 37px;
         }
 
         &_position-03 {
+            margin-top: 48px;
+            margin-left: -1px;
         }
 
     }
@@ -319,29 +336,75 @@ body {
     }
 }
 
-// ------------------------------ СДЕЛАТЬ ОБЕРТКУ В HTML!
+// ------------------------------ 
 
 .about {
+    height: 922px;
+    background-color: #245852;
+
+    &__wrap {
+        width: 1508px;
+        height: 517px;
+        display: flex;
+        padding-top: 229px;
+        margin-left: 207px;
+    }
 
     &__text {
+        margin-top: 82px;
     }
 
     &__title {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 157%;
+        color: #FFFFFF;
     }
 
     &__subtitle {
+        font-family: Lato-SemiBold;
+        font-size: 25px;
+        color: #FFFFFF;
+        margin-top: 40px;
     }
 
     &__button {
+        width: 240px;
+        height: 65px;
+        margin-top: 64px;
+        a {
+            width: 240px;
+            height: 65px;
+            background-color: #01996D;
+            border-radius: 4px;
+    
+            display: flex;
+            justify-content: center;
+            padding-top: 22px;
+    
+            font-family: Lato-Regular;
+            font-size: 20px;
+            color: #FFFFFF;
+            &:hover {
+                background-color: #087355;
+            }
+        }
     }
 
     &__img {
+        margin-left: 61px;
     }
 }
 
-// ------------------------------ СДЕЛАТЬ ОБЕРТКУ В HTML!
+// ------------------------------
 
 .product {
+    height: 936px;
+
+    &__wrap {
+
+    }
 
     &__column-one {
     }

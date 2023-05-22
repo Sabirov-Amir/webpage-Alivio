@@ -91,10 +91,13 @@ body {
 
 .navbar {
   height: 86px;
-  display: flex;
   border-bottom: 1px solid #D6D6D6;
   position: relative;
   top: 1px;
+}
+.navbar__wrap {
+  display: flex;
+  height: 86px;
 }
 .navbar__logo {
   padding: 30px 0px 0px 274px;
@@ -204,13 +207,15 @@ body {
   padding-top: 22px;
   font-family: Lato-Regular;
   font-size: 20px;
-  text-align: center;
   color: #FFFFFF;
 }
 .button a:hover {
   background-color: #087355;
 }
 
+.work {
+  height: 1606px;
+}
 .work__wrap {
   width: 1413px;
   padding-top: 176px;
@@ -262,6 +267,10 @@ body {
   padding-top: 363px;
   margin-left: 65px;
 }
+.block-bottom__column_position-03 {
+  padding-top: 130px;
+  margin-left: 74px;
+}
 .block-bottom__number {
   width: 178px;
   height: 150px;
@@ -290,10 +299,16 @@ body {
 .block-bottom__title_position-02 {
   width: 314px;
   height: 36px;
+  position: relative;
+  top: -53px;
+  left: 79px;
 }
 .block-bottom__title_position-03 {
   width: 102px;
   height: 36px;
+  position: relative;
+  top: -53px;
+  left: 124px;
 }
 .block-bottom__subtitle {
   font-family: Lato-Medium;
@@ -302,14 +317,29 @@ body {
   color: #424242;
 }
 .block-bottom__subtitle_position-01 {
-  margin-top: 10px;
+  margin-top: 10.5px;
+}
+.block-bottom__subtitle_position-02 {
+  margin-top: 10.5px;
+}
+.block-bottom__subtitle_position-03 {
+  margin-top: 1.5px;
+  margin-left: -1px;
 }
 .block-bottom__img {
   width: 390px;
 }
 .block-bottom__img_position-01 {
-  margin-top: 61px;
+  margin-top: 60.5px;
 }
+.block-bottom__img_position-02 {
+  margin-top: 37px;
+}
+.block-bottom__img_position-03 {
+  margin-top: 48px;
+  margin-left: -1px;
+}
+
 .img {
   position: relative;
 }
@@ -317,4 +347,59 @@ body {
   position: absolute;
   bottom: 123px;
   right: 0px;
+}
+
+.about {
+  height: 922px;
+  background-color: #245852;
+}
+.about__wrap {
+  width: 1508px;
+  height: 517px;
+  display: flex;
+  padding-top: 229px;
+  margin-left: 207px;
+}
+.about__text {
+  margin-top: 82px;
+}
+.about__title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #FFFFFF;
+}
+.about__subtitle {
+  font-family: Lato-SemiBold;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+.about__button {
+  width: 240px;
+  height: 65px;
+  margin-top: 64px;
+}
+.about__button a {
+  width: 240px;
+  height: 65px;
+  background-color: #01996D;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding-top: 22px;
+  font-family: Lato-Regular;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.about__button a:hover {
+  background-color: #087355;
+}
+.about__img {
+  margin-left: 61px;
+}
+
+.product {
+  height: 936px;
 }
