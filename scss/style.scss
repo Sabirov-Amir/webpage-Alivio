@@ -1,8 +1,19 @@
 @import "reset-style.scss";
 
+@font-face {
+    font-family: Lato-Regular;
+    src: url("../fonts/Lato-Regular.ttf");
+}
 
+@font-face {
+    font-family: Lato-Medium;
+    src: url("../fonts/Lato-Medium.ttf");
+}
 
-
+@font-face {
+    font-family: Lato-SemiBold;
+    src: url("../fonts/Lato-SemiBold.ttf");
+}
 
 body {
     width: 1920px;
@@ -12,89 +23,386 @@ body {
 
 //-----------------------------------------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.navbar {
+    height: 86px;
+    display: flex;
+    border-bottom: 1px solid #D6D6D6;
+    position: relative;
+    top: 1px;
+
+    &__logo {
+        padding: 30px 0px 0px 274px;
+    }
+
+    &__menu {
+        display: flex;
+        width: 560px;
+        height: 24px;
+        padding-top: 32px;
+        margin-left: 172px;
+    }
+
+    &__link {
+        width: 98px;
+        a {
+            font-family: Lato-Medium;
+            font-size: 20px;
+            color: #292929;
+        }
+        &:nth-child(2) {
+            width: 82px;
+            margin-left: 70px;
+        }
+        &:nth-child(3) {
+            width: 104px;
+            margin-left: 71px;
+        }
+        &:nth-child(4) {
+            width: 62px;
+            margin-left: 71px;
+        }
+    }
+
+    &__signin {
+        width: 60px;
+        height: 24px;
+        padding-top: 32px;
+        margin-left: 280px;
+        a {
+            font-family: Lato-Regular;
+            font-size: 20px;
+            color: #292929;
+        }
+    }
+
+    &__start {
+        width: 183px;
+        height: 51px;
+        padding-top: 17px;
+        margin-left: 34px;
+        a {
+            width: 183px;
+            height: 51px;
+            background-color: #01996D;
+            border-radius: 4px;
+
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+
+            font-family: Lato-Regular;
+            font-size: 20px;
+            color: #FFFFFF;
+            &:hover {
+                background-color: #087355;
+            }
+        }
+    }
+}
+
+// ------------------------------
+
+.header {
+    height: 895px;
+    background-image: url(../img/header-bg.jpg);
+
+    &__wrap {
+        // обертка 
+        width: 440px;
+        height: 600px;
+        padding-top: 175px;
+        margin-left: 275px;
+    }
+
+    &__title {
+        width: 440px;
+        height: 150px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 74px;
+        color: #01996D;
+    }
+
+    &__subtitle {
+        height: 90px;
+        font-family: Lato-Regular;
+        font-size: 20px;
+        line-height: 29px;
+        color: #484848;
+        margin-top: 29px;
+    }
+
+    &__button {
+        margin-top: 50px;
+    }
+}
+
+.button {
+    width: 227px;
+    height: 65px;
+    a {
+        width: 227px;
+        height: 65px;
+        background-color: #01996D;
+        border-radius: 4px;
+
+        display: flex;
+        justify-content: center;
+        padding-top: 22px;
+
+        font-family: Lato-Regular;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        &:hover {
+            background-color: #087355;
+        }
+    }
+}
+
+// ------------------------------ 
+
+.work {
+
+    &__wrap {
+        width: 1413px;
+        padding-top: 176px;
+        margin-left: 275px;
+    }
+
+    &__block-bot {
+        display: flex;
+    }
+
+    &__block-bottom {
+        display: flex;
+    }
+}
+
+.block-bot {
+    height: 200px;
+
+    &__text-left {
+        width: 584px;
+    }
+
+    &__suptitle {
+        font-family: Lato-SemiBold;
+        font-size: 24px;
+        color: #424242;
+    }
+
+    &__title {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 157%;
+        color: #01996D;
+        margin-top: 5px;
+        
+    }
+
+    &__text-right {
+        width: 670px;
+        font-family: Lato-Medium;
+        font-size: 20px;
+        line-height: 150%;
+        color: #424242;
+        padding-top: 50px;
+        margin-left: 136px;
+    }
+}
+
+.block-bottom {
+    
+    &__column {
+        width: 420px;
+
+        &_position-01 {
+            padding-top: 76px;
+        }
+
+        &_position-02 {
+            padding-top: 363px;
+            margin-left: 65px;
+        }
+
+        &_position-03 {
+
+        }
+    }
+
+    &__number {
+        width: 178px;
+        height: 150px;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 150px;
+        color: rgba(1, 153, 109, 0.2);
+
+    }
+
+    &__title {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 150%;
+        color: #000000;
+
+        &_position-01 {
+            width: 182px;
+            height: 36px;
+            position: relative;
+            top: -53px;
+            left: 88px;
+        }
+
+        &_position-02 {
+            width: 314px;
+            height: 36px;
+        }
+
+        &_position-03 {
+            width: 102px;
+            height: 36px;
+        }
+    }
+
+    &__subtitle {
+        font-family: Lato-Medium;
+        font-size: 20px;
+        line-height: 150%;
+        color: #424242;
+
+        &_position-01 {
+            margin-top: 10px;
+        }
+
+        &_position-02 {
+        }
+
+        &_position-03 {
+        }
+    }
+
+    &__img {
+        width: 390px;
+        &_position-01 {
+            margin-top: 61px;
+        }
+
+        &_position-02 {
+        }
+
+        &_position-03 {
+        }
+
+    }
+}
+
+.img {
+    position: relative;
+
+    &__pic-b {
+    }
+
+    &__pic-s {
+        position: absolute;
+        bottom: 123px;
+        right: 0px;
+    }
+}
+
+// ------------------------------ СДЕЛАТЬ ОБЕРТКУ В HTML!
+
+.about {
+
+    &__text {
+    }
+
+    &__title {
+    }
+
+    &__subtitle {
+    }
+
+    &__button {
+    }
+
+    &__img {
+    }
+}
+
+// ------------------------------ СДЕЛАТЬ ОБЕРТКУ В HTML!
+
+.product {
+
+    &__column-one {
+    }
+
+    &__column-two {
+    }
+
+    &__suptitle {
+    }
+
+    &__title {
+    }
+
+    &__subtitle {
+    }
+
+    &__button {
+    }
+}
+.column-one {
+
+    &__img {
+    }
+
+    &__card {
+    }
+}
+.card {
+
+    &__title {
+    }
+
+    &__img {
+    }
+
+    &__name {
+    }
+
+    &__subtitle {
+    }
+
+    &__list-one {
+    }
+
+    &__list-two {
+    }
+}
+
+// ------------------------------ СДЕЛАТЬ ОБЕРТКУ В HTML!
+
+.footer {
+
+    &__title {
+    }
+
+    &__subtitle {
+    }
+
+    &__link {
+    }
+}
 
 
 
