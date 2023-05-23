@@ -94,19 +94,22 @@ body {
   border-bottom: 1px solid #D6D6D6;
   position: relative;
   top: 1px;
+  padding-top: 17px;
 }
 .navbar__wrap {
+  width: 1370px;
+  height: 51px;
   display: flex;
-  height: 86px;
+  margin-left: 274px;
 }
 .navbar__logo {
-  padding: 30px 0px 0px 274px;
+  padding: 13px 0px 0px 0px;
 }
 .navbar__menu {
   display: flex;
   width: 560px;
   height: 24px;
-  padding-top: 32px;
+  padding-top: 15px;
   margin-left: 172px;
 }
 .navbar__link {
@@ -132,7 +135,7 @@ body {
 .navbar__signin {
   width: 60px;
   height: 24px;
-  padding-top: 32px;
+  padding-top: 15px;
   margin-left: 280px;
 }
 .navbar__signin a {
@@ -143,7 +146,6 @@ body {
 .navbar__start {
   width: 183px;
   height: 51px;
-  padding-top: 17px;
   margin-left: 34px;
 }
 .navbar__start a {
@@ -165,11 +167,11 @@ body {
 .header {
   height: 895px;
   background-image: url(../img/header-bg.jpg);
+  padding-top: 175px;
 }
 .header__wrap {
   width: 440px;
   height: 600px;
-  padding-top: 175px;
   margin-left: 275px;
 }
 .header__title {
@@ -215,10 +217,11 @@ body {
 
 .work {
   height: 1606px;
+  padding-top: 176px;
 }
 .work__wrap {
   width: 1413px;
-  padding-top: 176px;
+  height: 1386px;
   margin-left: 275px;
 }
 .work__block-bot {
@@ -352,12 +355,12 @@ body {
 .about {
   height: 922px;
   background-color: #245852;
+  padding-top: 229px;
 }
 .about__wrap {
   width: 1508px;
   height: 517px;
   display: flex;
-  padding-top: 229px;
   margin-left: 207px;
 }
 .about__text {
@@ -402,4 +405,11 @@ body {
 
 .product {
   height: 936px;
+  padding-top: 120px;
+}
+.product__wrap {
+  width: 1370px;
+  height: 648px;
+  display: flex;
+  margin-left: 275px;
 }

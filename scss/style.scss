@@ -28,21 +28,24 @@ body {
     border-bottom: 1px solid #D6D6D6;
     position: relative;
     top: 1px;
+    padding-top: 17px;
 
     &__wrap {
+        width: 1370px;
+        height: 51px;
         display: flex;
-        height: 86px;
+        margin-left: 274px;
     }
 
     &__logo {
-        padding: 30px 0px 0px 274px;
+        padding: 13px 0px 0px 0px;
     }
 
     &__menu {
         display: flex;
         width: 560px;
         height: 24px;
-        padding-top: 32px;
+        padding-top: 15px;
         margin-left: 172px;
     }
 
@@ -70,7 +73,7 @@ body {
     &__signin {
         width: 60px;
         height: 24px;
-        padding-top: 32px;
+        padding-top: 15px;
         margin-left: 280px;
         a {
             font-family: Lato-Regular;
@@ -82,7 +85,6 @@ body {
     &__start {
         width: 183px;
         height: 51px;
-        padding-top: 17px;
         margin-left: 34px;
         a {
             width: 183px;
@@ -109,12 +111,11 @@ body {
 .header {
     height: 895px;
     background-image: url(../img/header-bg.jpg);
+    padding-top: 175px;
 
     &__wrap {
-        // обертка 
         width: 440px;
         height: 600px;
-        padding-top: 175px;
         margin-left: 275px;
     }
 
@@ -168,10 +169,11 @@ body {
 
 .work {
     height: 1606px;
+    padding-top: 176px;
 
     &__wrap {
         width: 1413px;
-        padding-top: 176px;
+        height: 1386px;
         margin-left: 275px;
     }
 
@@ -341,12 +343,12 @@ body {
 .about {
     height: 922px;
     background-color: #245852;
+    padding-top: 229px;
 
     &__wrap {
         width: 1508px;
         height: 517px;
         display: flex;
-        padding-top: 229px;
         margin-left: 207px;
     }
 
@@ -401,9 +403,13 @@ body {
 
 .product {
     height: 936px;
+    padding-top: 120px;
 
     &__wrap {
-
+        width: 1370px;
+        height: 648px;
+        display: flex;
+        margin-left: 275px;
     }
 
     &__column-one {
@@ -453,17 +459,24 @@ body {
     }
 }
 
-// ------------------------------ СДЕЛАТЬ ОБЕРТКУ В HTML!
+// ------------------------------
 
 .footer {
 
+    &__wrap {
+
+    }
+
     &__title {
+
     }
 
     &__subtitle {
+
     }
 
     &__link {
+
     }
 }
 
