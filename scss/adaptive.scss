@@ -1,0 +1,472 @@
+
+// -------------------------------------------------------------------------- 1400 
+
+@media (max-width: 1400px) {
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: content-box;
+    }
+
+    // ----------------------------- navbar 1400 - done
+
+    .navbar {
+        min-height: 86px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #D6D6D6;
+        background-color: #fff;
+        
+        &__wrap {
+            width: 1140px;
+            height: 50px;
+            display: flex;
+            align-items: center; 
+        }
+    
+        &__logo {
+            margin-top: -4px;
+            img {
+                width: 81px;
+                height: 24px;
+            }
+        }
+    
+        &__burger {  
+            display: none;  
+        }
+    
+        &__menu {
+            display: flex;
+            justify-content: space-between;
+            max-width: 470px;
+            margin-left: 130px;
+        }
+    
+        &__link {
+            a {
+                font-family: Lato-Medium;
+                font-size: 20px;
+                color: #292929;
+            }
+        }
+    
+        &__signin {
+            width: 60px;
+            margin-left: 200px;
+            a {
+                font-family: Lato-Regular;
+                font-size: 20px;
+                color: #292929; 
+            }
+        }
+    
+        &__start {
+            margin-left: 25px;
+            a {
+                width: 174px;
+                height: 50px;
+                background-color: #01996D;
+                border-radius: 4px;
+        
+                display: flex;
+                justify-content: center;
+                padding-top: 14px;
+        
+                font-family: Lato-Regular;
+                font-size: 20px;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: #087355;
+                }
+            }
+        }
+    }
+    
+    // ------------------------------
+
+    .text {
+        width: 1140px;
+        margin: 0 auto;
+        box-sizing: content-box;
+        padding: 100px 15px 0px;
+        text-align: justify;
+        font-family: Lato-Regular;
+    }
+
+}
+
+// -------------------------------------------------------------------------- 1200 
+
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: content-box;
+    }
+
+    // ----------------------------- navbar 1200 - done
+
+    .navbar {
+        min-height: 76px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #D6D6D6;
+        background-color: #fff;
+        
+        &__wrap {
+            width: 960px;
+            height: 50px;
+            display: flex;
+            align-items: center; 
+        }
+    
+        &__logo {
+            margin-top: -4px;
+            img {
+                width: 76px;
+                height: 22px;
+            }
+        }
+    
+        &__burger { 
+            display: none;   
+        }
+    
+        &__menu {
+            display: flex;
+            justify-content: space-between;
+            max-width: 440px;
+            margin-left: 90px;
+        }
+    
+        &__link {
+            a {
+                font-family: Lato-Medium;
+                font-size: 18px;
+                color: #292929;
+            }
+        }
+    
+        &__signin {
+            width: 54px;
+            margin-left: 135px;
+            a {
+                font-family: Lato-Regular;
+                font-size: 18px;
+                color: #292929; 
+            }
+        }
+    
+        &__start {
+            margin-left: 25px;
+            a {
+                width: 140px;
+                height: 44px;
+                background-color: #01996D;
+                border-radius: 4px;
+        
+                display: flex;
+                justify-content: center;
+                padding-top: 13px;
+        
+                font-family: Lato-Regular;
+                font-size: 18px;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: #087355;
+                }
+            }
+        }
+    }
+    
+    // ------------------------------
+
+    .text {
+        width: 960px;
+        margin: 0 auto;
+        box-sizing: content-box;
+        padding: 90px 15px 0px;
+        text-align: justify;
+    }
+
+}
+
+// -------------------------------------------------------------------------- 992 
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: content-box;
+    }
+
+    // ----------------------------- navbar 992 - done
+
+    .navbar {
+        min-height: 62px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #D6D6D6;
+        background-color: #fff;
+        
+        &__wrap {
+            width: 720px;
+            height: 50px;
+            display: flex;
+            align-items: center; 
+        }
+    
+        &__logo {
+            margin-top: -5px;
+            img {
+                width: 68px;
+                height: 22px;
+            }
+        }
+    
+        &__burger {  
+            display: none;  
+        }
+    
+        &__menu {
+            display: flex;
+            justify-content: space-between;
+            max-width: 350px;
+            margin-left: 55px;
+        }
+    
+        &__link {
+            a {
+                font-family: Lato-Medium;
+                font-size: 15px;
+                color: #292929;
+            }
+        }
+    
+        &__signin {
+            width: 44px;
+            margin-left: 75px;
+            a {
+                font-family: Lato-Regular;
+                font-size: 15px;
+                color: #292929; 
+            }
+        }
+    
+        &__start {
+            margin-left: 18px;
+            a {
+                width: 110px;
+                height: 34px;
+                background-color: #01996D;
+                border-radius: 4px;
+        
+                display: flex;
+                justify-content: center;
+                padding-top: 10px;
+        
+                font-family: Lato-Regular;
+                font-size: 15px;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: #087355;
+                }
+            }
+        }
+    }
+    
+    // ------------------------------
+
+    .text {
+        width: 720px;
+        margin: 0 auto;
+        box-sizing: content-box;
+        padding: 82px 15px 0px;
+        text-align: justify;
+    }
+
+}
+
+// -------------------------------------------------------------------------- 768 
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: content-box;
+    }
+
+    // ----------------------------- navbar 768 - done
+
+    .navbar {
+        min-height: 58px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #D6D6D6;
+        background-color: #fff;
+        
+        &__wrap {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center; 
+            justify-content: space-between;
+            position: relative; // для burger и signin
+        }
+    
+        &__logo {
+            margin-top: -4px;
+            img {
+                width: 56px;
+                height: 18px;
+            }
+        }
+    
+        &__burger {  
+            display: block;
+            position: absolute;
+            top: 15px;
+            right: 5px;
+            width: 30px;
+            height: 20px;
+            z-index: 3;
+
+            &::before, &::after {
+                content: "";
+                background-color: #01996D;
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                left: 0;
+                transition-duration: 300ms;
+            }
+            &::before {
+                top: 0;
+            }
+            &::after {
+                bottom: 0;
+            }
+            span {
+                position: absolute;
+                background-color: #01996D;
+                width: 100%;
+                height: 2px;
+                left: 0;
+                top: 9px;
+                transition-duration: 300ms;
+            }
+        }
+
+        &__burger {
+            &.active::before {
+                transform: rotate(45deg);
+                top: 9px;
+            }
+            &.active::after {
+                transform: rotate(-45deg);
+                bottom: 9px;
+            }
+            &.active span {
+                transform: scale(0);
+            }
+        }
+
+        &__menu {
+            display: block;
+            justify-content: space-between;
+            max-width: initial; // убираю наследование у медиа запроса 992
+            margin-left: initial; // убираю наследование у медиа запроса 992
+
+            position: fixed;
+            width: 180px;
+            height: 230px; 
+            top: -100%;
+            right: 0;
+            //width: 100%; // 1 вариант вывода меню
+            //height: 100%; // можно оставить на всю высоту экрана 
+            //top: 0; // 1 вариант вывода меню
+            //left: 0; // 1 вариант вывода меню
+            background-color: #01996D;
+
+            padding: 80px 0px 0px 0px;
+            text-align: right;
+            transition-duration: 500ms;
+            //transition-timing-function: ease-in-out; // можно так
+            transition-timing-function: ease-out; 
+        }
+
+        &__menu.active {
+            top: 0;
+        }
+    
+        &__link {
+            //width: 100%;
+            width: 80px;
+            margin: 0px 0px 20px 80px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            a {
+                font-family: Lato-Medium;
+                font-size: 16px;
+                color: #fff;
+            }
+        }
+    
+        &__signin {
+            width: 48px;
+            height: 18px;
+            margin-left: 0px; // обнуляю наследование
+            position: absolute;
+            top: 16px;
+            right: 180px;
+            a {
+                font-family: Lato-Regular;
+                font-size: 16px;
+                color: #292929; 
+            }
+        }
+    
+        &__start {
+            margin-left: 0px; // обнуляю наследование
+            margin-right: 55px;
+            a {
+                width: 110px;
+                height: 34px;
+                background-color: #01996D;
+                border-radius: 4px;
+        
+                display: flex;
+                justify-content: center;
+                padding-top: 9px;
+        
+                font-family: Lato-Regular;
+                font-size: 16px;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: #087355;
+                }
+            }
+        }
+    }
+    
+    // ------------------------------
+
+    .text {
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: content-box;
+        padding: 64px 15px 0px;
+        text-align: justify;
+    }
+
+}

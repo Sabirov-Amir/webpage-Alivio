@@ -11,3 +11,10 @@ $('a[href*="#"]').click(function() {
 // 500 - скорость скролла
 
 //------------------------------------------------------------------------
+
+// Menu burger
+$(document).ready(function() {
+	$('.navbar__burger').click(function(event) {
+        $('.navbar__burger,.navbar__menu').toggleClass('active');
+	});
+});
