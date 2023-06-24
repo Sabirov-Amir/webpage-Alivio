@@ -1,5 +1,5 @@
 
-// -------------------------------------------------------------------------- 1400 
+// -------------------------------------------------------------------------- 1400 (adaptive markup)
 
 @media (max-width: 1400px) {
     .container {
@@ -85,20 +85,84 @@
         }
     }
     
-    // ------------------------------
+    // ----------------------------- header 1400 - done
 
-    .text {
-        width: 1140px;
-        margin: 0 auto;
-        box-sizing: content-box;
-        padding: 100px 15px 0px;
-        text-align: justify;
-        font-family: Lato-Regular;
+    .header {
+        margin-top: 86px;
+        min-height: 840px;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;   
+            top: 0;
+            left: 0;
+            background-image: url(../img/header-bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 1;
+            z-index: -1;
+        }
+    
+        &__wrap {
+            width: 440px;
+            padding-top: 175px;
+        }
+    
+        &__title {
+            width: 440px;
+            height: 150px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 65px;
+            line-height: 74px;
+            color: #01996D;
+        }
+    
+        &__subtitle {
+            width: 430px;
+            height: 90px;
+            font-family: Lato-Regular;
+            font-size: 20px;
+            line-height: 29px;
+            color: #484848;
+            margin-top: 28px;
+        }
+    
+        &__button {
+            margin-top: 50px;
+        }
     }
+    
+    .button {
+        // this block unclude 2 buttons (header, about)
+        a {
+            width: 231px;
+            height: 65px;
+            background-color: #01996D;
+            border-radius: 4px;
+    
+            display: flex;
+            justify-content: center;
+            padding-top: 22px;
+    
+            font-family: Lato-Regular;
+            font-size: 20px;
+            color: #FFFFFF;
+            &:hover {
+                background-color: #087355;
+            }
+        }
+    }
+    
+    
 
 }
 
-// -------------------------------------------------------------------------- 1200 
+// -------------------------------------------------------------------------- 1200 (adaptive markup)
 
 @media (max-width: 1200px) {
     .container {
@@ -184,19 +248,84 @@
         }
     }
     
-    // ------------------------------
+    // ----------------------------- header 1200 - done
 
-    .text {
-        width: 960px;
-        margin: 0 auto;
-        box-sizing: content-box;
-        padding: 90px 15px 0px;
-        text-align: justify;
+    .header {
+        margin-top: 76px;
+        min-height: 720px;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;   
+            top: 0;
+            left: 0;
+            background-image: url(../img/header-bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 1;
+            z-index: -1;
+        }
+
+        &__wrap {
+            width: 440px;
+            padding-top: 120px;
+        }
+        
+        &__title {
+            width: 440px;
+            height: 140px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 70px;
+            color: #01996D;
+        }
+        
+        &__subtitle {
+            width: 380px;
+            height: 80px;
+            font-family: Lato-Regular;
+            font-size: 18px;
+            line-height: 26px;
+            color: #484848;
+            margin-top: 20px;
+        }
+        
+        &__button {
+            margin-top: 30px;
+        }
     }
+        
+    .button {
+        // this block unclude 2 buttons (header, about)
+        a {
+            width: 200px;
+            height: 60px;
+            background-color: #01996D;
+            border-radius: 4px;
+        
+            display: flex;
+            justify-content: center;
+            padding-top: 20px;
+        
+            font-family: Lato-Regular;
+            font-size: 20px;
+            color: #FFFFFF;
+            &:hover {
+                background-color: #087355;
+            }
+        }
+    }    
+
+
 
 }
 
-// -------------------------------------------------------------------------- 992 
+// -------------------------------------------------------------------------- 992 (adaptive markup)
 
 @media (max-width: 992px) {
     .container {
@@ -282,26 +411,91 @@
         }
     }
     
-    // ------------------------------
+    // ----------------------------- header 992 - done
 
-    .text {
-        width: 720px;
-        margin: 0 auto;
-        box-sizing: content-box;
-        padding: 82px 15px 0px;
-        text-align: justify;
+    .header {
+        margin-top: 62px;
+        min-height: 630px;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;   
+            top: 0;
+            left: 0;
+            background-image: url(../img/header-bg.jpg);
+            background-position: 55% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.8;
+            z-index: -1;
+        }
+        
+        &__wrap {
+            width: 440px;
+            padding-top: 100px;
+        }
+        
+        &__title {
+            width: 440px;
+            height: 122px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 60px;
+            color: #01996D;
+        }
+        
+        &__subtitle {
+            width: 380px;
+            height: 80px;
+            font-family: Lato-Regular;
+            font-size: 18px;
+            line-height: 26px;
+            color: #484848;
+            margin-top: 16px;
+        }
+        
+        &__button {
+            margin-top: 28px;
+        }
     }
+        
+    .button {
+        // this block unclude 2 buttons (header, about)
+        a {
+            width: 190px;
+            height: 58px;
+            background-color: #01996D;
+            border-radius: 4px;
+        
+            display: flex;
+            justify-content: center;
+            padding-top: 19px;
+        
+            font-family: Lato-Regular;
+            font-size: 20px;
+            color: #FFFFFF;
+            &:hover {
+                background-color: #087355;
+            }
+        }
+    } 
+  
+
 
 }
 
-// -------------------------------------------------------------------------- 768 
+// -------------------------------------------------------------------------- 768 (responsive markup)
 
 @media (max-width: 768px) {
     .container {
         width: 100%;
         margin: 0 auto;
         padding: 0 15px;
-        box-sizing: content-box;
+        box-sizing: border-box;
     }
 
     // ----------------------------- navbar 768 - done
@@ -313,7 +507,7 @@
         align-items: center;
         border-bottom: 1px solid #D6D6D6;
         background-color: #fff;
-        
+
         &__wrap {
             width: 100%;
             height: 50px;
@@ -362,7 +556,7 @@
                 height: 2px;
                 left: 0;
                 top: 9px;
-                transition-duration: 300ms;
+                transition-duration: 200ms;
             }
         }
 
@@ -387,20 +581,15 @@
             margin-left: initial; // убираю наследование у медиа запроса 992
 
             position: fixed;
-            width: 180px;
-            height: 230px; 
+            width: 100%;
+            height: 260px; 
             top: -100%;
-            right: 0;
-            //width: 100%; // 1 вариант вывода меню
-            //height: 100%; // можно оставить на всю высоту экрана 
-            //top: 0; // 1 вариант вывода меню
-            //left: 0; // 1 вариант вывода меню
-            background-color: #01996D;
+            left: 0;
 
-            padding: 80px 0px 0px 0px;
-            text-align: right;
-            transition-duration: 500ms;
-            //transition-timing-function: ease-in-out; // можно так
+            background-color: #01996D;
+            padding: 86px 0px 0px 0px;
+            text-align: center;
+            transition-duration: 300ms;
             transition-timing-function: ease-out; 
         }
 
@@ -409,23 +598,35 @@
         }
     
         &__link {
-            //width: 100%;
+            position: relative;
             width: 80px;
-            margin: 0px 0px 20px 80px;
+            margin: 0px auto 26px;
             &:last-child {
                 margin-bottom: 0;
             }
+
             a {
                 font-family: Lato-Medium;
                 font-size: 16px;
                 color: #fff;
+            }
+
+            &:nth-child(1)::before, &:nth-child(2)::before, &:nth-child(3)::before {
+                content: "";
+                position: absolute;
+                width: 5px;
+                height: 5px;
+                top: 28px;
+                left: 37.5px;
+                border-radius: 50%;
+                background-color: #fff;
             }
         }
     
         &__signin {
             width: 48px;
             height: 18px;
-            margin-left: 0px; // обнуляю наследование
+            margin-left: 0px; // обнуляю наследование у 992
             position: absolute;
             top: 16px;
             right: 180px;
@@ -437,7 +638,7 @@
         }
     
         &__start {
-            margin-left: 0px; // обнуляю наследование
+            margin-left: 0px; // обнуляю наследование у 992
             margin-right: 55px;
             a {
                 width: 110px;
@@ -459,14 +660,329 @@
         }
     }
     
-    // ------------------------------
+    // ----------------------------- header 768 - done
 
-    .text {
+    .header {
+        margin-top: 58px;
+        min-height: 540px;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;   
+            top: 0;
+            left: 0;
+            background-image: url(../img/header-bg.jpg);
+            background-position: 55% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.8;
+            z-index: -1;
+        }
+
+        &__wrap {
+            width: 330px;
+            padding-top: 90px;
+        }
+        
+        &__title {
+            width: 326px;
+            height: 110px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 54px;
+            color: #01996D;
+        }
+        
+        &__subtitle {
+            width: 340px;
+            height: 72px;
+            font-family: Lato-Regular;
+            font-size: 16px;
+            line-height: 24px;
+            color: #484848;
+            margin-top: 12px;
+        }
+        
+        &__button {
+            margin-top: 22px;
+        }
+    }
+   
+    .button {
+        // this block unclude 2 buttons (header, about)
+        a {
+            width: 170px;
+            height: 50px;
+            background-color: #01996D;
+            border-radius: 4px;
+        
+            display: flex;
+            justify-content: center;
+            padding-top: 16px;
+        
+            font-family: Lato-Regular;
+            font-size: 18px;
+            color: #FFFFFF;
+            &:hover {
+                background-color: #087355;
+            }
+        }
+    } 
+
+
+
+}
+
+
+// -------------------------------------------------------------------------- 576 (responsive markup)
+
+@media (max-width: 576px) {
+    .container {
         width: 100%;
         margin: 0 auto;
-        box-sizing: content-box;
-        padding: 64px 15px 0px;
-        text-align: justify;
+        padding: 0 15px;
+        box-sizing: border-box;
     }
+
+    // ----------------------------- navbar 576 - done
+
+    .navbar {
+        min-height: 58px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #D6D6D6;
+        background-color: #fff;
+
+        &__wrap {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center; 
+            justify-content: space-between;
+            position: relative; // для burger и signin
+        }
+    
+        &__logo {
+            margin-top: -4px;
+            img {
+                width: 56px;
+                height: 18px;
+            }
+        }
+    
+        &__burger {  
+            display: block;
+            position: absolute;
+            top: 15px;
+            right: 5px;
+            width: 30px;
+            height: 20px;
+            z-index: 3;
+
+            &::before, &::after {
+                content: "";
+                background-color: #01996D;
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                left: 0;
+                transition-duration: 300ms;
+            }
+            &::before {
+                top: 0;
+            }
+            &::after {
+                bottom: 0;
+            }
+            span {
+                position: absolute;
+                background-color: #01996D;
+                width: 100%;
+                height: 2px;
+                left: 0;
+                top: 9px;
+                transition-duration: 200ms;
+            }
+        }
+
+        &__burger {
+            &.active::before {
+                transform: rotate(45deg);
+                top: 9px;
+            }
+            &.active::after {
+                transform: rotate(-45deg);
+                bottom: 9px;
+            }
+            &.active span {
+                transform: scale(0);
+            }
+        }
+
+        &__menu {
+            display: block;
+            justify-content: space-between;
+            max-width: initial; // убираю наследование у медиа запроса 992
+            margin-left: initial; // убираю наследование у медиа запроса 992
+
+            position: fixed;
+            width: 100%;
+            height: 236px; 
+            top: -100%;
+            left: 0;
+
+            background-color: #01996D;
+            padding: 80px 0px 0px 0px;
+            text-align: center;
+            transition-duration: 300ms;
+            transition-timing-function: ease-out; 
+        }
+
+        &__menu.active {
+            top: 0;
+        }
+    
+        &__link {
+            position: relative;
+            width: 80px;
+            margin: 0px auto 24px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            a {
+                font-family: Lato-Medium;
+                font-size: 14px;
+                color: #fff;
+            }
+
+            &:nth-child(1)::before, &:nth-child(2)::before, &:nth-child(3)::before {
+                content: "";
+                position: absolute;
+                width: 5px;
+                height: 5px;
+                top: 26px;
+                left: 37.5px;
+                border-radius: 50%;
+                background-color: #fff;
+            }
+        }
+    
+        &__signin {
+            width: 41px;
+            height: 18px;
+            margin-left: 0px; // обнуляю наследование у 992
+            position: absolute;
+            top: 16px;
+            right: 180px;
+            a {
+                font-family: Lato-Regular;
+                font-size: 14px;
+                color: #292929; 
+            }
+        }
+    
+        &__start {
+            margin-left: 0px; // обнуляю наследование у 992
+            margin-right: 55px;
+            a {
+                width: 110px;
+                height: 34px;
+                background-color: #01996D;
+                border-radius: 4px;
+        
+                display: flex;
+                justify-content: center;
+                padding-top: 10px;
+        
+                font-family: Lato-Regular;
+                font-size: 14px;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: #087355;
+                }
+            }
+        }
+    }
+    
+    // ----------------------------- header 576 - done
+
+    .header {
+        margin-top: 58px;
+        min-height: 480px;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;   
+            top: 0;
+            left: 0;
+            background-image: url(../img/header-bg.jpg);
+            background-position: 52% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.7;
+            z-index: -1;
+        }
+
+        &__wrap {
+            width: 300px;
+            padding-top: 80px;
+        }
+        
+        &__title {
+            width: 300px;
+            height: 100px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 46px;
+            color: #01996D;
+        }
+        
+        &__subtitle {
+            width: 300px;
+            height: 64px;
+            font-family: Lato-Regular;
+            font-size: 14px;
+            line-height: 20px;
+            color: #484848;
+            margin-top: 10px;
+        }
+        
+        &__button {
+            margin-top: 18px;
+        }
+    }
+  
+    .button {
+        // this block unclude 2 buttons (header, about)
+        a {
+            width: 156px;
+            height: 46px;
+            background-color: #01996D;
+            border-radius: 4px;
+        
+            display: flex;
+            justify-content: center;
+            padding-top: 17px;
+        
+            font-family: Lato-Regular;
+            font-size: 14px;
+            color: #FFFFFF;
+            &:hover {
+                background-color: #087355;
+            }
+        }
+    } 
+
+    
 
 }

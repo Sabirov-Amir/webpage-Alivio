@@ -131,10 +131,76 @@ html,body {
 
 // ------------------------------
 
-.text {
-    max-width: 1370px;
-    margin: 0 auto;
-    box-sizing: content-box;
-    padding: 100px 15px 0px;
-    text-align: justify;
+.header {
+    margin-top: 86px;
+    min-height: 895px;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;   
+        top: 0;
+        left: 0;
+        background-image: url(../img/header-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+        z-index: -1;
+    }
+
+    &__wrap {
+        width: 440px;
+	    padding-top: 175px;
+    }
+
+    &__title {
+        width: 440px;
+        height: 150px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 74px;
+        color: #01996D;
+    }
+
+    &__subtitle {
+        width: 430px;
+        height: 90px;
+        font-family: Lato-Regular;
+        font-size: 20px;
+        line-height: 29px;
+        color: #484848;
+        margin-top: 28px;
+    }
+
+    &__button {
+        margin-top: 50px;
+    }
 }
+
+.button {
+    // this block unclude 2 buttons (header, about)
+    a {
+        width: 231px;
+        height: 65px;
+        background-color: #01996D;
+        border-radius: 4px;
+
+        display: flex;
+        justify-content: center;
+        padding-top: 22px;
+
+        font-family: Lato-Regular;
+        font-size: 20px;
+        color: #FFFFFF;
+        &:hover {
+            background-color: #087355;
+        }
+    }
+}
+
+// ------------------------------
+
