@@ -158,7 +158,174 @@
         }
     }
     
+    // ----------------------------- work 1400 - done
+
+    .work {
+        min-height: 1540px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     
+        &__wrap {
+            width: 1140px;
+        }
+    
+        &__block-bot {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        &__block-bottom {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    
+    .block-bot {
+    
+        &__text-left {
+        }
+    
+        &__suptitle {
+            width: 142px;
+            font-family: Lato-SemiBold;
+            font-size: 24px;
+            color: #424242;
+        }
+    
+        &__title {
+            width: 530px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 46px;
+            line-height: 157%;
+            color: #01996D;
+            margin-top: 10px;
+        }
+    
+        &__text-right {
+            width: 510px;
+            font-family: Lato-Medium;
+            font-size: 18px;
+            line-height: 150%;
+            color: #424242;
+            margin-top: 58px;
+        }
+    }
+    
+    .block-bottom {
+        
+        &__column {
+            width: 350px;
+            position: relative; // for .img__pic-s -AND- for title_posisiton-01/02/03
+    
+            &_position-01 {
+                margin-top: 50px;
+            }
+            &_position-02 {
+                margin-top: 290px;
+            }
+            &_position-03 {
+                margin-top: 115px;
+            }
+        }
+    
+        &__number {
+            position: relative;
+            left: -8px;
+            width: 150px;
+            height: 150px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: 150px;
+            color: rgba(1, 153, 109, 0.2);
+        }
+    
+        &__title {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 30px;
+            color: #000000;
+            position: absolute;
+            height: 36px;
+            
+            &_position-01 {
+                width: 182px;
+                top: 88px;
+                left: 82px;
+            }
+            &_position-02 {
+                width: 260px;
+                top: 88px;
+                left: 72px;
+            }
+            &_position-03 {
+                width: 102px;
+                top: 104px;
+                left: 125px;
+            }
+        }
+    
+        &__subtitle {
+            font-family: Lato-Medium;
+            font-size: 18px;
+            line-height: 150%;
+            color: #424242;
+            margin-top: 35px;
+        }
+    
+        &__img {
+            margin-top: 45px;
+            width: 350;
+            height: 440px;
+            border-radius: 10px;
+            &_1 {
+                background-image: url(../img/work-01-b.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            &_2 {
+                background-image: url(../img/work-02.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            &_3 {
+                background-image: url(../img/work-03.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+    
+    .img {
+        position: relative;
+        &__pic-b {
+        }
+        &__pic-s {
+            background-image: url(../img/work-01-s.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            width: 163px;
+            height: 126px;
+            bottom: 110px;
+            right: 0px;
+            z-index: 1;
+        }
+    }
+
+
 
 }
 
@@ -227,7 +394,7 @@
         }
     
         &__start {
-            margin-left: 25px;
+            margin-left: 26px;
             a {
                 width: 140px;
                 height: 44px;
@@ -320,6 +487,173 @@
             }
         }
     }    
+
+    // ----------------------------- work 1200 - done
+
+    .work {
+        min-height: 1240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        &__wrap {
+            width: 960px;
+        }
+    
+        &__block-bot {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        &__block-bottom {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    
+    .block-bot {
+    
+        &__text-left {
+        }
+    
+        &__suptitle {
+            width: 142px;
+            font-family: Lato-SemiBold;
+            font-size: 22px;
+            color: #424242;
+        }
+    
+        &__title {
+            width: 460px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 157%;
+            color: #01996D;
+            margin-top: 10px;
+        }
+    
+        &__text-right {
+            width: 416px;
+            font-family: Lato-Medium;
+            font-size: 16px;
+            line-height: 150%;
+            color: #424242;
+            margin-top: 54px;
+        }
+    }
+    
+    .block-bottom {
+        
+        &__column {
+            width: 290px;
+            position: relative; // for .img__pic-s -AND- for title_posisiton-01/02/03
+    
+            &_position-01 {
+                margin-top: 30px;
+            }
+            &_position-02 {
+                margin-top: 252px;
+            }
+            &_position-03 {
+                margin-top: 86px;
+            }
+        }
+    
+        &__number {
+            position: relative;
+            left: -7px;
+            width: 150px;
+            height: 150px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: 140px;
+            color: rgba(1, 153, 109, 0.2);
+        }
+    
+        &__title {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 28px;
+            color: #000000;
+            position: absolute;
+            height: 36px;
+            
+            &_position-01 {
+                width: 182px;
+                top: 80px;
+                left: 80px;
+            }
+            &_position-02 {
+                width: 260px;
+                top: 81px;
+                left: 66px;
+            }
+            &_position-03 {
+                width: 102px;
+                top: 96px;
+                left: 120px;
+            }
+        }
+    
+        &__subtitle {
+            font-family: Lato-Medium;
+            font-size: 16px;
+            line-height: 150%;
+            color: #424242;
+            margin-top: 20px;
+        }
+    
+        &__img {
+            margin-top: 40px;
+            width: 290;
+            height: 340px;
+            border-radius: 10px;
+            &_1 {
+                background-image: url(../img/work-01-b.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            &_2 {
+                background-image: url(../img/work-02.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            &_3 {
+                background-image: url(../img/work-03.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+    
+    .img {
+        position: relative;
+        &__pic-b {
+        }
+        &__pic-s {
+            background-image: url(../img/work-01-s.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            width: 136px;
+            height: 103px;
+            bottom: 80px;
+            right: 0px;
+            z-index: 1;
+        }
+    }
 
 
 
@@ -415,7 +749,7 @@
 
     .header {
         margin-top: 62px;
-        min-height: 630px;
+        min-height: 600px;
         position: relative;
 
         &::after {
@@ -484,7 +818,177 @@
         }
     } 
   
+    // ----------------------------- work 992 - done
 
+    .work {
+        min-height: 930px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        &__wrap {
+            width: 720px;
+        }
+    
+        &__block-bot {
+            display: block; // обнулил display: flex; у 1200
+        }
+    
+        &__block-bottom {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    
+    .block-bot {
+    
+        &__text-left {
+        }
+    
+        &__suptitle {
+            width: 118px;
+            font-family: Lato-SemiBold;
+            font-size: 20px;
+            color: #424242;
+        }
+    
+        &__title {
+            width: 720px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 54px;
+            letter-spacing: -0.5px;
+            color: #01996D;
+            margin-top: 10px;
+            position: relative;
+            left: -2px;
+        }
+    
+        &__text-right {
+            width: 476px;
+            font-family: Lato-Medium;
+            font-size: 14px;
+            line-height: 150%;
+            color: #424242;
+            margin-top: 20px;
+        }
+    }
+    
+    .block-bottom {
+        
+        &__column {
+            width: 220px;
+            position: relative; // for .img__pic-s -AND- for title_posisiton-01/02/03
+    
+            &_position-01 {
+                margin-top: 20px;
+            }
+            &_position-02 {
+                margin-top: 173px;
+            }
+            &_position-03 {
+                margin-top: 64px;
+            }
+        }
+    
+        &__number {
+            position: relative;
+            left: -6px;
+            width: 150px;
+            height: 110px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: 110px;
+            color: rgba(1, 153, 109, 0.2);
+        }
+    
+        &__title {
+            height: 24px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: #000000;
+            position: absolute;
+            
+            &_position-01 {
+                width: 134px;
+                top: 66px;
+                left: 62px;
+            }
+            &_position-02 {
+                width: 138px;
+                top: 64px;
+                left: 60px;
+                line-height: 22px;
+            }
+            &_position-03 {
+                width: 76px;
+                top: 78px;
+                left: 92px;
+            }
+        }
+    
+        &__subtitle {
+            font-family: Lato-Medium;
+            font-size: 12px;
+            line-height: 150%;
+            color: #424242;
+            margin-top: 15px;
+        }
+    
+        &__img {
+            margin-top: 24px;
+            width: 200;
+            height: 270px;
+            border-radius: 10px;
+            &_1 {
+                background-image: url(../img/work-01-b.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            &_2 {
+                background-image: url(../img/work-02.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            &_3 {
+                background-image: url(../img/work-03.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+    
+    .img {
+        position: relative;
+        &__pic-b {
+        }
+        &__pic-s {
+            background-image: url(../img/work-01-s.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            width: 102px;
+            height: 80px;
+            bottom: 65px;
+            right: 0px;
+            z-index: 1;
+        }
+    }
+
+    
 
 }
 
@@ -664,7 +1168,7 @@
 
     .header {
         margin-top: 58px;
-        min-height: 540px;
+        min-height: 510px;
         position: relative;
 
         &::after {
@@ -733,10 +1237,182 @@
         }
     } 
 
+    // ----------------------------- work 768 - done
 
+    .work {
+        height: 930px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        &__wrap {
+            width: 100%;
+        }
+    
+        &__block-bot {
+            display: block; // обнулил display: flex; у 1200
+        }
+    
+        &__block-bottom {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    
+    .block-bot {
+    
+        &__text-left {
+        }
+    
+        &__suptitle {
+            width: 118px;
+            font-family: Lato-SemiBold;
+            font-size: 20px;
+            color: #424242;
+        }
+    
+        &__title {
+            width: 400px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 50px;
+            color: #01996D;
+            margin-top: 10px;
+            position: relative;
+            left: -2px;
+        }
+    
+        &__text-right {
+            width: 476px;
+            font-family: Lato-Medium;
+            font-size: 14px;
+            line-height: 150%;
+            color: #424242;
+            margin-top: 20px;
+        }
+    }
+    
+    .block-bottom {
+        width: 100%;
 
-}
+        &__column {
+            width: 210px;
+            position: relative; // for .img__pic-s -AND- for title_posisiton-01/02/03
+    
+            &_position-01 {
+                margin-top: 20px;
+            }
+            &_position-02 {
+                margin-top: 173px;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+            &_position-03 {
+                margin-top: 64px;
+            }
+        }
+    
+        &__number {
+            position: relative;
+            left: -6px;
+            width: 150px;
+            height: 110px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: 110px;
+            color: rgba(1, 153, 109, 0.2);
+        }
+    
+        &__title {
+            height: 24px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: #000000;
+            position: absolute;
+            
+            &_position-01 {
+                width: 134px;
+                top: 66px;
+                left: 62px;
+            }
+            &_position-02 {
+                width: 138px;
+                top: 64px;
+                left: 60px;
+                line-height: 22px;
+            }
+            &_position-03 {
+                width: 76px;
+                top: 78px;
+                left: 92px;
+            }
+        }
+    
+        &__subtitle {
+            font-family: Lato-Medium;
+            font-size: 12px;
+            line-height: 150%;
+            color: #424242;
+            margin-top: 15px;
+        }
+    
+        &__img {
+            margin-top: 24px;
+            width: 100%;
+            height: 240px;
+            border-radius: 10px;
+            &_1 {
+                background-image: url(../img/work-01-b.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            &_2 {
+                background-image: url(../img/work-02.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            &_3 {
+                background-image: url(../img/work-03.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+    
+    .img {
+        //position: relative;
+        &__pic-b {
+        }
+        &__pic-s {
+            display: none;
+            // background-image: url(../img/work-01-s.png);
+            // background-repeat: no-repeat;
+            // background-position: center;
+            // background-size: cover;
+            // position: absolute;
+            // width: 102px;
+            // height: 80px;
+            // bottom: 65px;
+            // right: 0px;
+            // z-index: 1;
+        }
+    }     
 
+    
+
+}     
 
 // -------------------------------------------------------------------------- 576 (responsive markup)
 
@@ -980,6 +1656,188 @@
             &:hover {
                 background-color: #087355;
             }
+        }
+    } 
+
+    // ----------------------------- work 576 - done
+
+    .work {
+        height: 2150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        &__wrap {
+            width: 100%;
+        }
+    
+        &__block-bot {
+            display: block; // обнулил display: flex; у 1200
+        }
+    
+        &__block-bottom {
+            display: block; // обнулил display: flex; у 768
+        }
+    }
+    
+    .block-bot {
+    
+        &__text-left {
+            text-align: center;
+        }
+    
+        &__suptitle {
+            width: 118px;
+            margin: 0 auto;
+            font-family: Lato-SemiBold;
+            font-size: 20px;
+            color: #424242;
+        }
+    
+        &__title {
+            //width: 290px;
+            width: 100%;
+            margin: 0 auto;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 40px;
+            color: #01996D;
+            margin-top: 10px;
+            left: 0px; // обнулил position:relative 
+        }
+    
+        &__text-right {
+            //width: 290px;
+            width: 100%;
+            margin: 0 auto;
+            font-family: Lato-Medium;
+            font-size: 14px;
+            line-height: 150%;
+            color: #424242;
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+    
+    .block-bottom {
+        //width: 290px;
+        //width: 100%;
+        //margin: 0 auto;
+
+        &__column {
+            //width: 260px;
+            width: 100%;
+            position: relative; // for .img__pic-s -AND- for title_posisiton-01/02/03
+    
+            &_position-01 {
+                margin-top: 20px;
+            }
+            &_position-02 {
+                margin-top: 20px;
+                margin-right: 0; // обнуляю у 768
+                margin-left: 0; // обнуляю у 768
+            }
+            &_position-03 {
+                margin-top: 20px;
+            }
+        }
+    
+        &__number {
+            position: relative;
+            left: -6px;
+            width: 150px;
+            height: 120px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: 120px;
+            color: rgba(1, 153, 109, 0.2);
+        }
+    
+        &__title {
+            height: 24px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: #000000;
+            position: absolute;
+            
+            &_position-01 {
+                width: 134px;
+                top: 70px;
+                left: 66px;
+            }
+            &_position-02 {
+                width: 138px;
+                top: 72px;
+                left: 58px;
+                line-height: 23px;
+            }
+            &_position-03 {
+                width: 76px;
+                top: 82px;
+                left: 98px;
+            }
+        }
+    
+        &__subtitle {
+            font-family: Lato-Medium;
+            font-size: 14px;
+            line-height: 150%;
+            color: #424242;
+            margin-top: 18px;
+        }
+    
+        &__img {
+            margin-top: 24px;
+            width: 100%;
+            height: 370px;
+            border-radius: 10px;
+            &_1 {
+                background-image: url(../img/work-01-b.jpg);
+                background-repeat: no-repeat;
+                //background-position: center;
+                background-position: 50% 90%;
+                background-size: cover;
+            }
+    
+            &_2 {
+                background-image: url(../img/work-02.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+    
+            &_3 {
+                background-image: url(../img/work-03.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+    
+    .img {
+        //position: relative;
+        &__pic-b {
+        }
+        &__pic-s {
+            display: none;
+            // background-image: url(../img/work-01-s.png);
+            // background-repeat: no-repeat;
+            // background-position: center;
+            // background-size: cover;
+            // position: absolute;
+            // width: 102px;
+            // height: 80px;
+            // bottom: 65px;
+            // right: 0px;
+            // z-index: 1;
         }
     } 
 

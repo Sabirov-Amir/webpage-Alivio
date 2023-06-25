@@ -242,3 +242,142 @@ html, body {
 .button a:hover {
   background-color: #087355;
 }
+
+.work {
+  min-height: 1606px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work__wrap {
+  width: 1370px;
+}
+.work__block-bot {
+  display: flex;
+  justify-content: space-between;
+}
+.work__block-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-bot__suptitle {
+  width: 142px;
+  font-family: Lato-SemiBold;
+  font-size: 24px;
+  color: #424242;
+}
+.block-bot__title {
+  width: 574px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+  margin-top: 10px;
+}
+.block-bot__text-right {
+  width: 654px;
+  font-family: Lato-Medium;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+  margin-top: 58px;
+}
+
+.block-bottom__column {
+  width: 390px;
+  position: relative;
+}
+.block-bottom__column_position-01 {
+  margin-top: 80px;
+}
+.block-bottom__column_position-02 {
+  margin-top: 333px;
+}
+.block-bottom__column_position-03 {
+  margin-top: 130px;
+}
+.block-bottom__number {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 150px;
+  color: rgba(1, 153, 109, 0.2);
+}
+.block-bottom__title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000;
+  position: absolute;
+  height: 36px;
+}
+.block-bottom__title_position-01 {
+  width: 182px;
+  top: 90px;
+  left: 88px;
+}
+.block-bottom__title_position-02 {
+  width: 314px;
+  top: 88px;
+  left: 74px;
+}
+.block-bottom__title_position-03 {
+  width: 102px;
+  top: 98px;
+  left: 124px;
+}
+.block-bottom__subtitle {
+  font-family: Lato-Medium;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424242;
+  margin-top: 45px;
+}
+.block-bottom__img {
+  margin-top: 45px;
+  width: 390;
+  height: 380px;
+  border-radius: 10px;
+}
+.block-bottom__img_1 {
+  background-image: url(../img/work-01-b.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.block-bottom__img_2 {
+  background-image: url(../img/work-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.block-bottom__img_3 {
+  background-image: url(../img/work-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.block-bottom__img img {
+  width: 100%;
+  display: block;
+}
+
+.img {
+  position: relative;
+}
+.img__pic-s {
+  background-image: url(../img/work-01-s.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 183px;
+  height: 140px;
+  bottom: 69px;
+  right: 0px;
+  z-index: 1;
+}
