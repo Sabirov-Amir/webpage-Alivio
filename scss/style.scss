@@ -133,7 +133,7 @@ html,body {
 
 .header {
     margin-top: 86px;
-    min-height: 895px;
+    min-height: 880px;
     position: relative;
 
     &::after {
@@ -153,7 +153,7 @@ html,body {
 
     &__wrap {
         width: 440px;
-	    padding-top: 175px;
+	    padding-top: 180px;
     }
 
     &__title {
@@ -319,52 +319,25 @@ html,body {
 
     &__img {
         margin-top: 45px;
-        width: 390;
-        height: 380px;
-        border-radius: 10px;
-        &_1 {
-            background-image: url(../img/work-01-b.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-
-        &_2 {
-            background-image: url(../img/work-02.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-
-        &_3 {
-            background-image: url(../img/work-03.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-
         img {
-            width: 100%;
-            display: block;
+            width: 390px;
+            height: 492px;
         }
     }
 }
 
-.img {
+.img-1 {
     position: relative;
     &__pic-b {
     }
     &__pic-s {
-        background-image: url(../img/work-01-s.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        img {
+            max-height: 140px;
+            width: 183px;
+        }
         position: absolute;
-        width: 183px;
-        height: 140px;
-        bottom: 69px;
+        bottom: 124px;
         right: 0px;
-        z-index: 1;
     }
 }
 

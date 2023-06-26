@@ -1,7 +1,7 @@
 
 // -------------------------------------------------------------------------- 1400 (adaptive markup)
 
-@media (max-width: 1400px) {
+@media (max-width: 1399px) {
     .container {
         width: 1140px;
         margin: 0 auto;
@@ -89,7 +89,7 @@
 
     .header {
         margin-top: 86px;
-        min-height: 840px;
+        min-height: 800px;
         position: relative;
 
         &::after {
@@ -109,7 +109,7 @@
     
         &__wrap {
             width: 440px;
-            padding-top: 175px;
+            padding-top: 150px;
         }
     
         &__title {
@@ -161,7 +161,7 @@
     // ----------------------------- work 1400 - done
 
     .work {
-        min-height: 1540px;
+        min-height: 1400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -273,55 +273,28 @@
             color: #424242;
             margin-top: 35px;
         }
-    
+
         &__img {
             margin-top: 45px;
-            width: 350;
-            height: 440px;
-            border-radius: 10px;
-            &_1 {
-                background-image: url(../img/work-01-b.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
-            &_2 {
-                background-image: url(../img/work-02.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
-            &_3 {
-                background-image: url(../img/work-03.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
             img {
-                width: 100%;
-                display: block;
+                width: 350px;
+                height: 440px;
             }
         }
     }
     
-    .img {
+    .img-1 {
         position: relative;
         &__pic-b {
         }
         &__pic-s {
-            background-image: url(../img/work-01-s.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+            img {
+                width: 163px;
+                max-height: 126px;
+            }
             position: absolute;
-            width: 163px;
-            height: 126px;
             bottom: 110px;
             right: 0px;
-            z-index: 1;
         }
     }
 
@@ -331,7 +304,7 @@
 
 // -------------------------------------------------------------------------- 1200 (adaptive markup)
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .container {
         width: 960px;
         margin: 0 auto;
@@ -419,7 +392,7 @@
 
     .header {
         margin-top: 76px;
-        min-height: 720px;
+        min-height: 700px;
         position: relative;
 
         &::after {
@@ -491,7 +464,7 @@
     // ----------------------------- work 1200 - done
 
     .work {
-        min-height: 1240px;
+        min-height: 1150px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -603,55 +576,28 @@
             color: #424242;
             margin-top: 20px;
         }
-    
+
         &__img {
             margin-top: 40px;
-            width: 290;
-            height: 340px;
-            border-radius: 10px;
-            &_1 {
-                background-image: url(../img/work-01-b.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
-            &_2 {
-                background-image: url(../img/work-02.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
-            &_3 {
-                background-image: url(../img/work-03.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
             img {
-                width: 100%;
-                display: block;
+                width: 290px;
+                max-height: 340px;
             }
         }
     }
     
-    .img {
+    .img-1 {
         position: relative;
         &__pic-b {
         }
         &__pic-s {
-            background-image: url(../img/work-01-s.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+            img {
+                width: 136px;
+                height: 98px;
+            }
             position: absolute;
-            width: 136px;
-            height: 103px;
-            bottom: 80px;
+            bottom: 85px;
             right: 0px;
-            z-index: 1;
         }
     }
 
@@ -661,7 +607,7 @@
 
 // -------------------------------------------------------------------------- 992 (adaptive markup)
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .container {
         width: 720px;
         margin: 0 auto;
@@ -821,7 +767,7 @@
     // ----------------------------- work 992 - done
 
     .work {
-        min-height: 930px;
+        min-height: 900px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -866,7 +812,7 @@
         }
     
         &__text-right {
-            width: 476px;
+            width: 720px;
             font-family: Lato-Medium;
             font-size: 14px;
             line-height: 150%;
@@ -936,55 +882,28 @@
             color: #424242;
             margin-top: 15px;
         }
-    
+
         &__img {
             margin-top: 24px;
-            width: 200;
-            height: 270px;
-            border-radius: 10px;
-            &_1 {
-                background-image: url(../img/work-01-b.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
-            &_2 {
-                background-image: url(../img/work-02.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
-            &_3 {
-                background-image: url(../img/work-03.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
             img {
-                width: 100%;
-                display: block;
+                width: 220px;
+                max-height: 270px;;
             }
         }
     }
     
-    .img {
+    .img-1 {
         position: relative;
         &__pic-b {
         }
         &__pic-s {
-            background-image: url(../img/work-01-s.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+            img {
+                width: 102px;
+                height: 77px;
+            }
             position: absolute;
-            width: 102px;
-            height: 80px;
-            bottom: 65px;
+            bottom: 68px;
             right: 0px;
-            z-index: 1;
         }
     }
 
@@ -994,7 +913,7 @@
 
 // -------------------------------------------------------------------------- 768 (responsive markup)
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .container {
         width: 100%;
         margin: 0 auto;
@@ -1265,14 +1184,17 @@
         }
     
         &__suptitle {
-            width: 118px;
+            width: 100%;
+            text-align: center;
+            margin: 0 auto;
             font-family: Lato-SemiBold;
             font-size: 20px;
             color: #424242;
         }
     
         &__title {
-            width: 400px;
+            width: 100%;
+            text-align: center;
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: 700;
             font-size: 34px;
@@ -1284,7 +1206,8 @@
         }
     
         &__text-right {
-            width: 476px;
+            width: 100%;
+            text-align: center;
             font-family: Lato-Medium;
             font-size: 14px;
             line-height: 150%;
@@ -1357,56 +1280,23 @@
             color: #424242;
             margin-top: 15px;
         }
-    
+
         &__img {
             margin-top: 24px;
-            width: 100%;
-            height: 240px;
-            border-radius: 10px;
-            &_1 {
-                background-image: url(../img/work-01-b.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
-            &_2 {
-                background-image: url(../img/work-02.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
-            &_3 {
-                background-image: url(../img/work-03.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
             img {
                 width: 100%;
-                display: block;
+                max-height: 240px;
+                object-fit: cover;
+                border-radius: 8px;
             }
         }
     }
     
-    .img {
-        //position: relative;
+    .img-1 {
         &__pic-b {
         }
         &__pic-s {
             display: none;
-            // background-image: url(../img/work-01-s.png);
-            // background-repeat: no-repeat;
-            // background-position: center;
-            // background-size: cover;
-            // position: absolute;
-            // width: 102px;
-            // height: 80px;
-            // bottom: 65px;
-            // right: 0px;
-            // z-index: 1;
         }
     }     
 
@@ -1416,7 +1306,7 @@
 
 // -------------------------------------------------------------------------- 576 (responsive markup)
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .container {
         width: 100%;
         margin: 0 auto;
@@ -1590,7 +1480,7 @@
 
     .header {
         margin-top: 58px;
-        min-height: 480px;
+        min-height: 460px;
         position: relative;
 
         &::after {
@@ -1662,7 +1552,7 @@
     // ----------------------------- work 576 - done
 
     .work {
-        height: 2150px;
+        height: 2120px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1695,7 +1585,6 @@
         }
     
         &__title {
-            //width: 290px;
             width: 100%;
             margin: 0 auto;
             font-family: Georgia, 'Times New Roman', Times, serif;
@@ -1708,7 +1597,6 @@
         }
     
         &__text-right {
-            //width: 290px;
             width: 100%;
             margin: 0 auto;
             font-family: Lato-Medium;
@@ -1721,12 +1609,8 @@
     }
     
     .block-bottom {
-        //width: 290px;
-        //width: 100%;
-        //margin: 0 auto;
 
         &__column {
-            //width: 260px;
             width: 100%;
             position: relative; // for .img__pic-s -AND- for title_posisiton-01/02/03
     
@@ -1787,57 +1671,29 @@
             color: #424242;
             margin-top: 18px;
         }
-    
+
         &__img {
             margin-top: 24px;
             width: 100%;
-            height: 370px;
-            border-radius: 10px;
-            &_1 {
-                background-image: url(../img/work-01-b.jpg);
-                background-repeat: no-repeat;
-                //background-position: center;
-                background-position: 50% 90%;
-                background-size: cover;
-            }
-    
-            &_2 {
-                background-image: url(../img/work-02.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-    
-            &_3 {
-                background-image: url(../img/work-03.jpg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-
             img {
+                border-radius: 8px;
                 width: 100%;
-                display: block;
+                max-height: 360px;
+                object-fit: cover;
+            }
+            &_1 {
+                img {
+                    object-position: 50% 75%;
+                }
             }
         }
     }
     
-    .img {
-        //position: relative;
+    .img-1 {
         &__pic-b {
         }
         &__pic-s {
             display: none;
-            // background-image: url(../img/work-01-s.png);
-            // background-repeat: no-repeat;
-            // background-position: center;
-            // background-size: cover;
-            // position: absolute;
-            // width: 102px;
-            // height: 80px;
-            // bottom: 65px;
-            // right: 0px;
-            // z-index: 1;
         }
     } 
 

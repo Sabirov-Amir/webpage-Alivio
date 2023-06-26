@@ -184,7 +184,7 @@ html, body {
 
 .header {
   margin-top: 86px;
-  min-height: 895px;
+  min-height: 880px;
   position: relative;
 }
 .header::after {
@@ -203,7 +203,7 @@ html, body {
 }
 .header__wrap {
   width: 440px;
-  padding-top: 175px;
+  padding-top: 180px;
 }
 .header__title {
   width: 440px;
@@ -339,45 +339,21 @@ html, body {
 }
 .block-bottom__img {
   margin-top: 45px;
-  width: 390;
-  height: 380px;
-  border-radius: 10px;
-}
-.block-bottom__img_1 {
-  background-image: url(../img/work-01-b.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.block-bottom__img_2 {
-  background-image: url(../img/work-02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.block-bottom__img_3 {
-  background-image: url(../img/work-03.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .block-bottom__img img {
-  width: 100%;
-  display: block;
+  width: 390px;
+  height: 492px;
 }
 
-.img {
+.img-1 {
   position: relative;
 }
-.img__pic-s {
-  background-image: url(../img/work-01-s.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.img-1__pic-s {
   position: absolute;
-  width: 183px;
-  height: 140px;
-  bottom: 69px;
+  bottom: 124px;
   right: 0px;
-  z-index: 1;
+}
+.img-1__pic-s img {
+  max-height: 140px;
+  width: 183px;
 }
