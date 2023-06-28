@@ -462,8 +462,6 @@ html,body {
     background: #FFFFFF;
     border-radius: 3.72971px;
     filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
-    display: flex;
-    flex-direction: column;
     
     &__title {
         width: 104px;
@@ -485,6 +483,7 @@ html,body {
 
     &__img {
         margin: 24px auto 0px;
+        width: 58px;
         img {
             width: 58px;
             height: 58px;
@@ -525,5 +524,34 @@ html,body {
     }
 }
 
-// ------------------------------
+//----------------------------------------------------------------------- footer
 
+.footer {
+    min-height: 605px;
+    background: #245852;
+    display: flex;
+    align-items: center;
+
+    &__wrap {
+        width: 1370px;
+    }
+
+    &__title {
+        font-family: Lato-SemiBold;
+        font-size: 40px;
+        color: #FFFFFF;
+        letter-spacing: 1.5px;
+    }
+
+    &__subtitle {
+    }
+
+    &__link {
+        margin-top: 55px;
+        a {
+            font-family: Lato-SemiBold;
+            font-size: 25px;
+            color: #FFFFFF;
+        }
+    }
+}

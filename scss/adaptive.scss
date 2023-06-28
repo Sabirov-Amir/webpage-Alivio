@@ -137,7 +137,7 @@
     }
     
     .button {
-        // this block unclude 2 buttons (header, about)
+        // this block unclude 3 buttons (header, about, product)
         a {
             width: 226px;
             height: 65px;
@@ -420,8 +420,6 @@
         background: #FFFFFF;
         border-radius: 5px;
         filter: drop-shadow(0px 4px 18px rgba(165, 165, 165, 0.25));
-        display: flex;
-        flex-direction: column;
         
         &__title {
             width: 104px;
@@ -443,6 +441,7 @@
     
         &__img {
             margin: 24px auto 0px;
+            width: 58px;
             img {
                 width: 58px;
                 height: 58px;
@@ -483,7 +482,37 @@
         }
     }
 
+    // ---------------------------------- footer 1400 - done
 
+    .footer {
+        min-height: 440px;
+        background: #245852;
+        display: flex;
+        align-items: center;
+    
+        &__wrap {
+            width: 1140px;
+        }
+    
+        &__title {
+            font-family: Lato-SemiBold;
+            font-size: 38px;
+            color: #FFFFFF;
+            letter-spacing: 1.5px;
+        }
+    
+        &__subtitle {
+        }
+    
+        &__link {
+            margin-top: 40px;
+            a {
+                font-family: Lato-SemiBold;
+                font-size: 24px;
+                color: #FFFFFF;
+            }
+        }
+    }
 
 }
 
@@ -625,7 +654,7 @@
     }
         
     .button {
-        // this block unclude 2 buttons (header, about)
+        // this block unclude 3 buttons (header, about, product)
         a {
             width: 200px;
             height: 60px;
@@ -908,8 +937,6 @@
         background: #FFFFFF;
         border-radius: 6px;
         filter: drop-shadow(0px 4px 18px rgba(165, 165, 165, 0.25));
-        display: flex;
-        flex-direction: column;
         
         &__title {
             width: 98px;
@@ -931,6 +958,7 @@
     
         &__img {
             margin: 20px auto 0px;
+            width: 58px;
             img {
                 width: 58px;
                 height: 58px;
@@ -971,7 +999,38 @@
         }
     }
 
+    // ---------------------------------- footer 1200 - done
 
+    .footer {
+        min-height: 400px;
+        background: #245852;
+        display: flex;
+        align-items: center;
+    
+        &__wrap {
+            width: 960px;
+        }
+    
+        &__title {
+            font-family: Lato-SemiBold;
+            font-size: 36px;
+            color: #FFFFFF;
+            letter-spacing: 1.5px;
+        }
+    
+        &__subtitle {
+            margin-top: 50px;
+        }
+    
+        &__link {
+            margin-top: 36px;
+            a {
+                font-family: Lato-SemiBold;
+                font-size: 20px;
+                color: #FFFFFF;
+            }
+        }
+    }
 
 }
 
@@ -1113,7 +1172,7 @@
     }
         
     .button {
-        // this block unclude 2 buttons (header, about)
+        // this block unclude 3 buttons (header, about, product)
         a {
             width: 166px;
             height: 52px;
@@ -1400,8 +1459,6 @@
         background: #FFFFFF;
         border-radius: 6px;
         filter: drop-shadow(0px 4px 18px rgba(165, 165, 165, 0.25));
-        display: flex;
-        flex-direction: column;
         
         &__title {
             width: 74px;
@@ -1423,6 +1480,7 @@
     
         &__img {
             margin: 15px auto 0px;
+            width: 50px;
             img {
                 width: 50px;
                 height: 50px;
@@ -1463,7 +1521,38 @@
         }
     }
 
+    // ---------------------------------- footer 992 - done
 
+    .footer {
+        min-height: 300px;
+        background: #245852;
+        display: flex;
+        align-items: center;
+    
+        &__wrap {
+            width: 720px;
+        }
+    
+        &__title {
+            font-family: Lato-SemiBold;
+            font-size: 34px;
+            color: #FFFFFF;
+            letter-spacing: 1.5px;
+        }
+    
+        &__subtitle {
+            margin-top: 36px;
+        }
+    
+        &__link {
+            margin-top: 22px;
+            a {
+                font-family: Lato-SemiBold;
+                font-size: 18px;
+                color: #FFFFFF;
+            }
+        }
+    }
 
 }
 
@@ -1691,7 +1780,7 @@
     }
    
     .button {
-        // this block unclude 2 buttons (header, about)
+        // this block unclude 3 buttons (header, about, product)
         a {
             width: 164px;
             height: 50px;
@@ -1992,8 +2081,6 @@
         background: #FFFFFF;
         border-radius: 6px;
         filter: drop-shadow(0px 4px 18px rgba(165, 165, 165, 0.25));
-        display: flex;
-        flex-direction: column;
         
         &__title {
             width: 74px;
@@ -2015,6 +2102,7 @@
     
         &__img {
             margin: 15px auto 0px;
+            width: 50px;
             img {
                 width: 50px;
                 height: 50px;
@@ -2055,7 +2143,39 @@
         }
     }
 
+    // ---------------------------------- footer 768 - done
 
+    .footer {
+        min-height: 300px;
+        background: #245852;
+        display: flex;
+        align-items: center;
+    
+        &__wrap {
+            width: 100%;
+            text-align: center;
+        }
+    
+        &__title {
+            font-family: Lato-SemiBold;
+            font-size: 32px;
+            color: #FFFFFF;
+            letter-spacing: 1.5px;
+        }
+    
+        &__subtitle {
+            margin-top: 36px;
+        }
+    
+        &__link {
+            margin-top: 26px;
+            a {
+                font-family: Lato-SemiBold;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+        }
+    }
 
 }     
 
@@ -2283,7 +2403,7 @@
     }
   
     .button {
-        // this block unclude 2 buttons (header, about)
+        // this block unclude 3 buttons (header, about, product)
         a {
             width: 156px;
             height: 46px;
@@ -2292,7 +2412,7 @@
         
             display: flex;
             justify-content: center;
-            padding-top: 17px;
+            padding-top: 16px;
         
             font-family: Lato-Regular;
             font-size: 14px;
@@ -2575,7 +2695,7 @@
     
         &__card {
             width: 190px;
-            height: 174px;
+            height: 175px;
             position: absolute;
             bottom: 0px;
             left: 0px;
@@ -2585,11 +2705,9 @@
         background: #FFFFFF;
         border-radius: 6px;
         filter: drop-shadow(0px 4px 18px rgba(165, 165, 165, 0.25));
-        display: flex;
-        flex-direction: column;
         
         &__title {
-            width: 74px;
+            width: 76px;
             font-family: Lato-SemiBold;
             font-size: 10.5px;
             color: #000000;
@@ -2608,6 +2726,7 @@
     
         &__img {
             margin: 15px auto 0px;
+            width: 50px;
             img {
                 width: 50px;
                 height: 50px;
@@ -2648,6 +2767,38 @@
         }
     }
 
+    // ---------------------------------- footer 576 - done
+
+    .footer {
+        min-height: 250px;
+        background: #245852;
+        display: flex;
+        align-items: center;
     
+        &__wrap {
+            width: 100%;
+            text-align: center;
+        }
+    
+        &__title {
+            font-family: Lato-SemiBold;
+            font-size: 26px;
+            color: #FFFFFF;
+            letter-spacing: 1.5px;
+        }
+    
+        &__subtitle {
+            margin-top: 30px;
+        }
+    
+        &__link {
+            margin-top: 22px;
+            a {
+                font-family: Lato-SemiBold;
+                font-size: 14px;
+                color: #FFFFFF;
+            }
+        }
+    }
 
 }
