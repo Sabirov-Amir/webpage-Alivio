@@ -1,3 +1,3 @@
 # Webpage "Alivio" (in process)
-### It's my second study layout (Figma), which have adaptive and responsive markup
-### Also I made my first menu burger :star2:
+### It's my second study layout (Figma) :star2:
+### Here I made adaptive / responsive markup (all devices) and my first menu burger (only mobile version)
