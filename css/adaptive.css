@@ -359,8 +359,7 @@
     width: 58px;
   }
   .card__img img {
-    width: 58px;
-    height: 58px;
+    width: 100%;
   }
   .card__name {
     width: 42px;
@@ -392,7 +391,7 @@
     margin: 20px 0px 0px 50px;
   }
   .footer {
-    min-height: 440px;
+    min-height: 360px;
     background: #245852;
     display: flex;
     align-items: center;
@@ -400,18 +399,21 @@
   .footer__wrap {
     width: 1140px;
   }
-  .footer__title {
+  .footer__title a {
     font-family: Lato-SemiBold;
-    font-size: 38px;
+    font-size: 36px;
     color: #FFFFFF;
     letter-spacing: 1.5px;
   }
-  .footer__link {
+  .footer__subtitle {
     margin-top: 40px;
+  }
+  .footer__link {
+    margin-top: 26px;
   }
   .footer__link a {
     font-family: Lato-SemiBold;
-    font-size: 24px;
+    font-size: 20px;
     color: #FFFFFF;
   }
 }
@@ -776,8 +778,7 @@
     width: 58px;
   }
   .card__img img {
-    width: 58px;
-    height: 58px;
+    width: 100%;
   }
   .card__name {
     width: 42px;
@@ -809,7 +810,7 @@
     margin: 11px 0px 0px 38px;
   }
   .footer {
-    min-height: 400px;
+    min-height: 320px;
     background: #245852;
     display: flex;
     align-items: center;
@@ -817,21 +818,21 @@
   .footer__wrap {
     width: 960px;
   }
-  .footer__title {
+  .footer__title a {
     font-family: Lato-SemiBold;
-    font-size: 36px;
+    font-size: 34px;
     color: #FFFFFF;
     letter-spacing: 1.5px;
   }
   .footer__subtitle {
-    margin-top: 50px;
+    margin-top: 36px;
   }
   .footer__link {
-    margin-top: 36px;
+    margin-top: 24px;
   }
   .footer__link a {
     font-family: Lato-SemiBold;
-    font-size: 20px;
+    font-size: 18px;
     color: #FFFFFF;
   }
 }
@@ -1168,7 +1169,7 @@
   }
   .column-one__card {
     width: 190px;
-    height: 174px;
+    height: 184px;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -1197,11 +1198,10 @@
   }
   .card__img {
     margin: 15px auto 0px;
-    width: 50px;
+    width: 58px;
   }
   .card__img img {
-    width: 50px;
-    height: 50px;
+    width: 100%;
   }
   .card__name {
     width: 38px;
@@ -1233,7 +1233,7 @@
     margin: 9px 0px 0px 38px;
   }
   .footer {
-    min-height: 300px;
+    min-height: 270px;
     background: #245852;
     display: flex;
     align-items: center;
@@ -1241,21 +1241,21 @@
   .footer__wrap {
     width: 720px;
   }
-  .footer__title {
+  .footer__title a {
     font-family: Lato-SemiBold;
-    font-size: 34px;
+    font-size: 28px;
     color: #FFFFFF;
     letter-spacing: 1.5px;
   }
   .footer__subtitle {
-    margin-top: 36px;
+    margin-top: 30px;
   }
   .footer__link {
-    margin-top: 22px;
+    margin-top: 24px;
   }
   .footer__link a {
     font-family: Lato-SemiBold;
-    font-size: 18px;
+    font-size: 16px;
     color: #FFFFFF;
   }
 }
@@ -1689,7 +1689,7 @@
   }
   .column-one__card {
     width: 190px;
-    height: 180px;
+    height: 184px;
     position: absolute;
     bottom: 0px;
     left: -30px;
@@ -1718,11 +1718,10 @@
   }
   .card__img {
     margin: 15px auto 0px;
-    width: 50px;
+    width: 58px;
   }
   .card__img img {
-    width: 50px;
-    height: 50px;
+    width: 100%;
   }
   .card__name {
     width: 38px;
@@ -1754,7 +1753,7 @@
     margin: 9px 0px 0px 38px;
   }
   .footer {
-    min-height: 300px;
+    min-height: 250px;
     background: #245852;
     display: flex;
     align-items: center;
@@ -1763,21 +1762,21 @@
     width: 100%;
     text-align: center;
   }
-  .footer__title {
+  .footer__title a {
     font-family: Lato-SemiBold;
-    font-size: 32px;
+    font-size: 26px;
     color: #FFFFFF;
     letter-spacing: 1.5px;
   }
   .footer__subtitle {
-    margin-top: 36px;
+    margin-top: 30px;
   }
   .footer__link {
-    margin-top: 26px;
+    margin-top: 20px;
   }
   .footer__link a {
     font-family: Lato-SemiBold;
-    font-size: 16px;
+    font-size: 14px;
     color: #FFFFFF;
   }
 }
@@ -2212,7 +2211,7 @@
   }
   .column-one__card {
     width: 190px;
-    height: 180px;
+    height: 185px;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -2241,11 +2240,10 @@
   }
   .card__img {
     margin: 15px auto 0px;
-    width: 50px;
+    width: 58px;
   }
   .card__img img {
-    width: 50px;
-    height: 50px;
+    width: 100%;
   }
   .card__name {
     width: 38px;
@@ -2286,21 +2284,21 @@
     width: 100%;
     text-align: center;
   }
-  .footer__title {
+  .footer__title a {
     font-family: Lato-SemiBold;
-    font-size: 24px;
+    font-size: 22px;
     color: #FFFFFF;
     letter-spacing: 1.5px;
   }
   .footer__subtitle {
-    margin-top: 26px;
+    margin-top: 30px;
   }
   .footer__link {
-    margin-top: 20px;
+    margin-top: 22px;
   }
   .footer__link a {
     font-family: Lato-SemiBold;
-    font-size: 12px;
+    font-size: 14px;
     color: #FFFFFF;
   }
 }

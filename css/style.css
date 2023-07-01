@@ -87,6 +87,10 @@ html, body {
   height: 100%;
 }
 
+body.lock {
+  overflow: hidden;
+}
+
 .container {
   width: 1370px;
   margin: 0 auto;
@@ -138,7 +142,7 @@ html, body {
   display: flex;
   justify-content: space-between;
   width: 558px;
-  margin-left: 172px;
+  margin-left: 170px;
 }
 .navbar__link {
   position: relative;
@@ -358,7 +362,7 @@ html, body {
 }
 
 .about {
-  height: 922px;
+  height: 760px;
   background-color: #245852;
   display: flex;
   justify-content: center;
@@ -481,8 +485,7 @@ html, body {
   width: 58px;
 }
 .card__img img {
-  width: 58px;
-  height: 58px;
+  width: 100%;
 }
 .card__name {
   width: 42px;
@@ -523,7 +526,7 @@ html, body {
 .footer__wrap {
   width: 1370px;
 }
-.footer__title {
+.footer__title a {
   font-family: Lato-SemiBold;
   font-size: 40px;
   color: #FFFFFF;
