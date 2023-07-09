@@ -91,6 +91,11 @@ body.lock {
   overflow: hidden;
 }
 
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+
 .container {
   width: 1370px;
   margin: 0 auto;

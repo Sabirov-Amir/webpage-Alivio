@@ -1,14 +1,4 @@
 
-// // Smooth scroll on jQuery 
-// var $page = $('html, body');
-// $('a[href*="#"]').click(function() {
-//     $page.animate({
-//         scrollTop: $($.attr(this, 'href')).offset().top -15}, 500);
-//     return false;
-// });
-// // .top -10 - регулирует отступ сверху в пикселях
-// // 500 - скорость скролла
-
 //-----------------------------------------------------------------------------------------------------------------------------------------
     
 // Smooth scroll on JavaScript #1
@@ -24,9 +14,9 @@ if (pageNavigation.length > 0) {
             const gotoBlock = document.querySelector(pageNav.dataset.goto);
             const gotoBlockValue = gotoBlock.getBoundingClientRect().top + window.scrollY - document.querySelector('.navbar').offsetHeight;
 
-            // Закрываем меню при нажатии на ссылку* 
-            if(navbarBurger.classList.contains('active')){
-                document.body.classList.remove('lock') // запрещаем скролить при открытом меню
+            // Closing menu when click on link (inside menu)* 
+            if(navbarMenu.classList.contains('active')){
+                document.body.classList.remove('lock') // Prohibit scroll when menu is open
                 navbarBurger.classList.remove('active');
                 navbarMenu.classList.remove('active');
             }
@@ -39,14 +29,7 @@ if (pageNavigation.length > 0) {
         }
     }
 }
-
-// * Закрываем меню при нажатии на ссылку - 3 строчки после if взяты из меню бургера  
-// if(navbarBurger.classList.contains('active')){
-//     document.body.classList.toggle('lock') 
-//     navbarBurger.classList.toggle('active');
-//     navbarMenu.classList.toggle('active');
-// }
-
+// * Closing menu when click on link (inside menu) - 3 strings after 'if' took from 'Menu burger on JavaScript'  
 
 //-----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -69,26 +52,33 @@ if (pageNavigation.length > 0) {
 
 //-----------------------------------------------------------------------------------------------------------------------------------------
 
-// // Menu burger on jQuerry
-// $(document).ready(function() {
-// 	$('.navbar__burger').click(function(event) {
-//         $('.navbar__burger,.navbar__menu').toggleClass('active');
-// 	});
-// });
-
-//-----------------------------------------------------------------------------------------------------------------------------------------
-
 // Menu burger on JavaScript
 const navbarBurger = document.querySelector('.navbar__burger');
 const navbarMenu = document.querySelector('.navbar__menu');
 if (navbarBurger) {
     navbarBurger.addEventListener("click", function(e) {
-        document.body.classList.toggle('lock') // запрещаем скролить при открытом меню* 
+        document.body.classList.toggle('lock') // Prohibit scroll if menu is open* 
         navbarBurger.classList.toggle('active');
         navbarMenu.classList.toggle('active');
     });
 }
+// * In css for body.lock need write 'overflow: hidden'
 
-// * document.body.classList.toggle('lock') // в css в body пишем overflow: hidden;
+// Closing menu when click on all content
+const closeMenu = document.querySelector('.close-menu');
+if (closeMenu) {
+    closeMenu.addEventListener("click", function(e) {
+        document.body.classList.remove('lock');
+        navbarBurger.classList.remove('active');
+        navbarMenu.classList.remove('active');
+    });
+} 
 
 //-----------------------------------------------------------------------------------------------------------------------------------------
+
+// Show 'which blocks' when click
+const headerMenuActive = document.querySelector('.header__menu.active');
+document.addEventListener('click', (e) => {
+       const click = e.composedPath();
+       console.log(click);
+})
